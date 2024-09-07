@@ -10,5 +10,9 @@ using namespace std;
 int main ()
 {
     int income, estateTax, countyTax, totalTax;
+    income = 95000;
+    estateTax = (4/100)*income;
+    countyTax = (2/100)*income;
+    totalTax =countyTax + estateTax;
 }
 
