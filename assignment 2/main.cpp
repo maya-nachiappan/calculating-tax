@@ -11,8 +11,8 @@ int main ()
 {
     float income;
     income = 95000;
-    float estateTax = (4/100)*income;
-    float countyTax = (2/100)*income;
+    const double estateTax = 0.04*income; // the estate tax is 4% of the income
+    const double countyTax = 0.02*income; // the county tax is 2% of the income
     float totalTax =countyTax + estateTax;
     cout << "The estate tax on this income is: "<< estateTax << endl;
     cout << "The county tax on this income is: "<< countyTax << endl;
