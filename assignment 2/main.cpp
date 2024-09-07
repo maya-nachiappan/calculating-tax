@@ -14,5 +14,9 @@ int main ()
     estateTax = (4/100)*income;
     countyTax = (2/100)*income;
     totalTax =countyTax + estateTax;
+    cout << "The estate tax on this income is: "<< estateTax << endl;
+    cout << "The county tax on this income is: "<< countyTax << endl;
+    cout << "The total tax on this income is: "<< totalTax << endl;
+    return 0;
 }
 
