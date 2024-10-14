@@ -18,7 +18,7 @@ int main ()
     cout << "The estate tax on this income is: "<< estateTax << endl;
     cout << "The county tax on this income is: "<< countyTax << endl;
     cout << "The total tax on this income is: "<< totalTax << endl;
-    cout << "The final profit after tax is " << income - totalTax << endl;
+    cout << "The final profit after tax is " << income - totalTax << endl; // profit is income - tax
     return 0;
 }
 
